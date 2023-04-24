@@ -4,6 +4,7 @@
 In my other [repository](https://github.com/bugcebayindir/etl-pipeline-docker.git), we built ETL pipeline that carries out extract, transform and load tasks of transactional data.
 
 Following tasks are written in query languages with using the same data:
+
 - Exploring data:
   - Checked data type
   - Determined missing data
@@ -17,6 +18,21 @@ Following tasks are written in query languages with using the same data:
   - Removed invoice where quantity is less than 0
 - Analyzing data with SQL
 - Analyzing data with Python and visualization
+  - Top 10 country with the most spend
+  - Monthly invoice distribution
+  - Daily invoice distribution
+  - Identify customers that have spent more than average user
+  - Top 10 customer with the most purchase
+  - Most flop customers
+  - Top 10 item sold
+  - Customer churn rate
+  - Non-returner customer details
+- RFM (Recency, Frequency, Monetary) Analysis & K-Means Clustering:
+  - Recency: How recently has the customer made a transaction
+  - Frequency: How frequent is the customer in ordering/buying some product
+  - Monetary: How much does the customer spend on purchasing products
+  - Customer segmentation: Ranking, scoring and rating customers based on rfm score
+  - K-Means clustering
 
 ### Bonus
 Some visualizations with Tableau are also [available](https://public.tableau.com/app/profile/bugce.bayindir/viz/customer_segmentation_project/Sheet13).
