@@ -27,6 +27,7 @@ Following tasks are written in query languages with using the same data:
   - Top 10 item sold
   - Customer churn rate
   - Non-returner customer details
+  - Aggregating customers
 - RFM (Recency, Frequency, Monetary) Analysis & K-Means Clustering:
   - Recency: How recently has the customer made a transaction
   - Frequency: How frequent is the customer in ordering/buying some product
